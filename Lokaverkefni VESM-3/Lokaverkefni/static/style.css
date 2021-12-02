@@ -1,0 +1,127 @@
+.wrapper{
+    padding-top:15px;
+    padding-bottom:15px;
+    display:grid;
+    grid-template-areas:
+    "head"
+    "left"
+    "right";
+}
+head{
+    display:grid;
+    grid-area:head;
+}
+
+.SEC1{
+    display:grid;
+    grid-area:left;
+}
+.SEC2{
+    display:grid;
+    grid-area:right;
+}
+
+
+.SEC1-secret{
+    display:grid;
+    grid-area:left;
+}
+.SEC2-secret{
+    display:grid;
+    grid-area:right;
+}
+/* Size */
+.SEC1{
+    padding:30px;
+    width:250px;
+}
+.SEC2{
+    padding:30px;
+    width:250px;
+}
+
+
+.SEC1-secret{
+    padding:30px;
+    width:450px;
+}
+.SEC2-secret{
+    padding:30px;
+    width:450px;
+}
+
+/* Placement */
+
+.head-text{
+    margin:0px auto;
+    margin-bottom:10px;
+}
+
+.SEC1{
+    margin:0px auto;
+}
+.SEC2{
+    margin:0px auto;
+}
+
+.SEC1-secret{
+    margin:0px auto;
+}
+.SEC2-secret{
+    margin:0px auto;
+}
+
+
+/* Colour */
+
+.wrapper{
+    background-color:silver;
+}
+
+.SEC1{
+    background-color:darkgray;
+    border:1px solid darkgray;
+    border-radius:5px;
+}
+.SEC2{
+    margin-top:10px;
+    background-color:darkgray;
+    border:1px solid darkgray;
+    border-radius:5px;
+}
+
+.SEC1-secret{
+    background-color:darkgray;
+    border:1px solid darkgray;
+    border-radius:5px;
+}
+.SEC2-secret{
+    margin-top:10px;
+    background-color:darkgray;
+    border:1px solid darkgray;
+    border-radius:5px;
+}
+
+/* table specifics */
+
+table{
+    border:1px solid #3a3b3c; /* Láta blikkið á þennann hér */
+    background-color:#3a3b3c;
+    padding:10px;
+}
+.tr-head{
+    background-color:#989898;
+}
+
+td{
+    padding:5px;
+    margin:0px;
+}
+
+.td-light{
+    background-color:silver;
+}
+
+.td-dark{
+    background-color:darkgray;
+}

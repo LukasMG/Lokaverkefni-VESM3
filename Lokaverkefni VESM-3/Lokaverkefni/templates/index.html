@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css">
+    <title>Sölu upplýsingar</title>
+</head>
+<body>
+    <div class="wrapper">
+        <head>
+            <h1 class="head-text">Sölu upplýsingar</h1>
+        </head>
+        <div class="SEC1-secret">
+            <table>
+                <thead>
+                    <tr class="tr-head">
+                        <td>Heildarsala</td>
+                        <td>Tokens eytt (viðskiptavinnir)</td>
+                        <td>Vinsælasta varan</td>
+                        <td>Nærsta fría varan</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="td-light">{{ heild }}</td>
+                        <td class="td-dark">{{ net_sales }}</td>
+                        <td class="td-light">{{ most_popular}}</td>
+                        <td class="td-dark">{{ next_free_counter }}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="SEC2-secret">
+            <h2 class="head-text">Staða vöru</h2>
+            {% for x in range(3) %}
+                <h3>Hólf : {{ x+1 }} | Staða : {{ state_of_products[x] }} | Ef þú ert búinn að fylla á þetta hólf ýttu <a href="/update?num={{ x+1 }}">hér</a></h3>
+
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>

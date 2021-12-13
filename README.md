@@ -1,4 +1,4 @@
-# IOT Sjálfsali
+# IOT Sjálfsali - Lúkas Máni Gíslason og Jón Logi Dagbjartsson
 
 ## Verlefnalýsing
 

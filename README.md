@@ -66,3 +66,5 @@ https://esp32io.com/tutorials/esp32-keypad
 https://www.aranacorp.com/en/using-an-rfid-module-with-an-esp32/
 
 https://www.instructables.com/ESP32-With-RFID-Access-Control/
+
+P.s Við léttum ekki fylgja slóð af OLED vegna þess að við vorum ekki komnir það langt
